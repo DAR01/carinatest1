@@ -85,6 +85,18 @@ public class APISampleTest implements IAbstractTest {
         //let us check//
         //ToDo
 
+
     }
+
+    @Test()
+    @MethodOwner(owner = "aromeo")
+    @TestPriority(Priority.P2)
+    public void test1AaddNewBranch(){
+        //let us check//
+        //ToDo
+        //The change to point to develop branch
+
+    }
+
 
 }
